@@ -1,0 +1,103 @@
+/* Headergreen.css */
+
+.headerg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e6f4ea; /* Soft green background */
+  padding: 12px 24px;
+  box-shadow: 0 2px 8px rgba(0, 128, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.headerg__brand {
+  text-decoration: none;
+}
+
+.headerg__textLogo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #2e7d32; /* Dark green */
+  font-family: "Segoe UI", sans-serif;
+  letter-spacing: 1px;
+}
+
+.headerg__search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  flex: 1;
+  max-width: 600px;
+  margin: 0 20px;
+  border: 1px solid #cceccc;
+}
+
+.headerg__searchInput {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+  background-color: transparent;
+  color: #2e7d32;
+}
+
+.headerg__searchIcon {
+  width: 22px;
+  height: 22px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.headerg__nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.headerg__link {
+  text-decoration: none;
+}
+
+.headerg__option {
+  display: flex;
+  flex-direction: column;
+  color: #2e7d32;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.headerg__option:hover {
+  color: #005c2e;
+}
+
+.headerg__lineOne {
+  font-size: 12px;
+  color: #4caf50;
+}
+
+.headerg__lineTwo {
+  font-weight: bold;
+}
+
+.headerg__optionBasket {
+  display: flex;
+  align-items: center;
+  color: #2e7d32;
+}
+
+.headerg__cartIcon {
+  width: 26px;
+  height: 26px;
+  margin-right: 6px;
+}
+
+.headerg__basketCount {
+  font-weight: bold;
+  font-size: 14px;
+  color: #2e7d32;
+}

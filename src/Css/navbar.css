@@ -1,0 +1,90 @@
+.greenify-navbar {
+  background-color: #e8f5e9;
+  padding: 10px 20px;
+  box-shadow: 0 2px 6px rgba(0, 128, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.greenify-navbar__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.greenify-navbar__list li a {
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.greenify-navbar__list li a:hover {
+  background-color: #c8e6c9;
+}
+
+.greenify-navbar__button-wrapper {
+  position: relative;
+}
+
+.greenify-navbar__button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.greenify-navbar__button:hover {
+  background-color: #388e3c;
+}
+
+.greenify-navbar__popover {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: #ffffff;
+  border: 1px solid #c8e6c9;
+  border-radius: 6px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 128, 0, 0.1);
+  z-index: 999;
+  text-align: center;
+}
+
+.greenify-navbar__popover-arrow {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid white;
+  position: absolute;
+  top: -8px;
+  left: 20px;
+}
+
+.greenify-navbar__gotit {
+  background-color: #66bb6a;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 8px;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.greenify-navbar__gotit:hover {
+  background-color: #43a047;
+}

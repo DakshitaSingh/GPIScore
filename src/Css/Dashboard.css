@@ -1,0 +1,112 @@
+/* Dashboard.css — Greenify Theme */
+
+.greenify-dashboard {
+  padding: 24px;
+  background-color: #f1f8f4;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-header {
+  margin-bottom: 20px;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2e7d32;
+  border-left: 6px solid #a5d6a7;
+  padding-left: 12px;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.dashboard-cards {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.dashboard-card {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 12px rgba(76, 175, 80, 0.15);
+  min-width: 250px;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1rem;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.card-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.card-metric {
+  margin-top: 12px;
+  font-size: 2rem;
+  color: #1b5e20;
+}
+
+.dashboard-charts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.chart-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 12px rgba(76, 175, 80, 0.1);
+}
+
+.chart-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #388e3c;
+  margin-bottom: 12px;
+}
+
+.pie-chart-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.chart-labels {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.95rem;
+  color: #2e7d32;
+}
+
+.label-color {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}

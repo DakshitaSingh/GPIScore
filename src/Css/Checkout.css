@@ -1,0 +1,56 @@
+/* Checkout.css — Greenify Design */
+
+.greenify-checkout {
+  display: flex;
+  padding: 24px;
+  background-color: #f1f8f4;
+  min-height: 100vh;
+  gap: 24px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.greenify-checkout-left {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+}
+
+.greenify-checkout-banner {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
+  margin-bottom: 20px;
+}
+
+.greenify-cart-details {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.1);
+}
+
+.greenify-cart-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2e7d32;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #a5d6a7;
+  padding-bottom: 8px;
+}
+
+.greenify-empty-cart {
+  color: #555;
+  font-size: 1rem;
+  padding-top: 10px;
+}
+
+.greenify-checkout-right {
+  flex: 0.3;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  height: fit-content;
+  box-shadow: 0 2px 12px rgba(76, 175, 80, 0.15);
+}
